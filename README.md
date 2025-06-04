@@ -26,7 +26,8 @@ You can easily run this app in Google Colab using LocalTunnel for public access.
 ### 📝 Step 2: Create the app.py File
 
 %%writefile app.py
-# Paste your full Streamlit code here
+
+Paste your full Streamlit code here
 
 ### 🌐 Step 3: Get Your Public IP 
 
@@ -35,6 +36,7 @@ You can easily run this app in Google Colab using LocalTunnel for public access.
 ### 🚀 Step 5: Run Streamlit and Open Tunnel
 
 !streamlit run app.py & npx localtunnel --port 8501
+
 You’ll get a public URL like https://random-name.loca.lt — click it to view your app from anywhere in the world.
 
 🛠️ Tech Stack
